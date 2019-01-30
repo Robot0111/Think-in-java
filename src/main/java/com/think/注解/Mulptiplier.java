@@ -1,4 +1,4 @@
-/*package com.think.注解;
+package com.think.注解;
 
 import Annotation.ExtractInterface;
 
@@ -18,4 +18,3 @@ public static void main(String[] args) {
 	System.out.println("11*16=" +m.multiply(11, 16));
 }
 }
-*/
