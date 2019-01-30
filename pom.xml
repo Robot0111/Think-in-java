@@ -30,7 +30,7 @@
 
 						<configuration>
 							<annotationProcessors>
-								<!-- <annotationProcessor>Annotation.NInterfaceExtractorProcessor</annotationProcessor> -->
+								<annotationProcessor>Annotation.NInterfaceExtractorProcessor</annotationProcessor>
 								<annotationProcessor>Annotation.TableCreationProcessor</annotationProcessor>
 							</annotationProcessors>
 							<generatedSourcesDirectory>/home/desirec/eclipse-workspace/think/src/main/java/com/think/注解</generatedSourcesDirectory>
