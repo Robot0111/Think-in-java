@@ -1,6 +1,8 @@
 package com.think.generic;
 
-public class BasicBounds {
+import java.awt.Color;
+
+
 		interface HasColor {java.awt.Color getColor();}
 		
 		class Colored<T extends HasColor>{
@@ -26,4 +28,42 @@ public class BasicBounds {
 			int getZ() {return item.z;}
 		}
 		//TODO 20200317 7:48
+		interface Weight {int weight();}
+		
+		//As with inheritance, you can have only you one 与继承一样，你只能拥有一个
+		// concrete class but multiple interfaces; 可以拥有多个接口
+		
+		class Solid<T extends Dimension & HasColor & Weight>{
+			T item;
+			Solid(T item) {this.item = item;}
+			T getItem() {return this.item;};
+			java.awt.Color color() {return item.getColor();}
+			int getX() {return item.x;}
+			int getY() {return item.y;}
+			int getZ() {return item.z;}
+			int weight() {return item.weight();}
+			
+		}
+		
+		class Bounded extends Dimension implements HasColor ,Weight{
+
+			@Override
+			public int weight() {
+				return 0;
+			}
+
+			@Override
+			public Color getColor() {
+				return Color.red;
+			}
+			
+		}
+		public class BasicBounds {
+		public static void main(String[] args) {
+			Solid<Bounded> solid = new Solid<Bounded>(new Bounded());
+			solid.color();
+			solid.getY();
+			solid.weight();
+			System.err.println("color:"+solid.color());
+		}
 }
