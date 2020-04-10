@@ -1,8 +1,10 @@
 package com.think.容器深入研究;
 
-import java.util.*;
-import net.mindview.util.*;
-import net.mindview.util.Print.*;
+import java.util.Arrays;
+import java.util.Random;
+
+import net.mindview.util.Generated;
+import net.mindview.util.Generator;
 
 public class CompType implements Comparable<CompType> {
 	int i, j;

@@ -13,7 +13,7 @@ public class New {
 		return new HashSet<>();
 	}
 	public static <T> Queue<T> queue(){
-		return new LinkedList<>();
+		return new LinkedList<>();                                                                                                                                                                                                                                                                                                                                    
 	}
 	public static void main(String[] args) {
 		Map<String,List<String>> lsl = New.map();
