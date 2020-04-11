@@ -14,6 +14,9 @@ public class Holder<T> {
 		value = val;
 	}
 
+	public Holder() {
+	}
+
 	public void set(T val) {
 		value = val;
 	}
