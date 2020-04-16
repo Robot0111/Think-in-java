@@ -11,6 +11,6 @@ public class SelfBounding {
 	
 void testA(Setter s1,Setter s2,SelfBoundSetter sbs) {
 	s1.set(s2);
-	//FIXME
+//	s1.set(sbs);
 }
 }
