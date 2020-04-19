@@ -11,19 +11,7 @@ public class Person extends Individual {
 }
 
 
-class Dog extends Pet {
 
-	public Dog() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-
-	public Dog(String name) {
-		super(name);
-		// TODO Auto-generated constructor stub
-	}
-
-}
 class Mutt extends Dog{
 
 	public Mutt() {
@@ -49,18 +37,7 @@ class Pug extends Dog{
 		// TODO Auto-generated constructor stub
 	}
 }
-//cat 
-class Cat extends Pet{
 
-	public Cat() {
-		super();
-	}
-
-	public Cat(String name) {
-		super(name);
-	}
-	
-}
 class EgyptianMau extends Cat{
 
 	public EgyptianMau() {
