@@ -19,6 +19,7 @@ class MixinProxy implements InvocationHandler{
 	
 	public MixinProxy(TwoTuple<Object,Class<?>>... pairs) {
        delegatesByMethod = new HashMap<String, Object>();
+       
 		for(TwoTuple<Object, Class<?>> pair:pairs){
 			for(Method method : pair.second.getMethods()) {
 				String methodName = method.getName();
