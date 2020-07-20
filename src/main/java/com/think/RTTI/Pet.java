@@ -11,6 +11,7 @@ public class Pet extends Individual {
 
 	public Pet(String name) {
 		super(name);
+		Dog dog = new Dog();
 		// TODO Auto-generated constructor stub
 	}
 
