@@ -58,11 +58,11 @@
 			<artifactId>processor</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-		<!-- <dependency>
+		<dependency>
 			<groupId>think</groupId>
 			<artifactId>thinkInJava</artifactId>
 			<version>1.0.0</version>
-		</dependency> -->
+		</dependency>
 	<!-- 	<dependency>
 			<groupId>mirror</groupId>
 			<artifactId>tools</artifactId>
