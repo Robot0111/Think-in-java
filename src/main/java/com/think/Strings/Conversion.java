@@ -53,5 +53,24 @@ public class Conversion {
         Conversion y = new Conversion();
         System.out.println("y = new Conversion()");
         //f.format("d: %d\n",y);
+        //f.format("c: %c\n",y);
+        f.format("b: %b\n",y);
+        f.format("s: %b\n",y);
+        //f.format("f: %f\n",y);
+        //f.format("e: %e\n",y);
+        //f.format("x: %x\n",y);
+        f.format("h: %h\n",y);
+
+        boolean z = false;
+        System.out.println("z = false");
+        //f.format("d: %d\n",z);
+        //f.format("c: %c\n",c);
+        f.format("b: %b\n",z);
+        f.format("s: %s\n",z);
+        //f.format("f: %b\n",z);
+        //f.format("e: %s\n",z);
+        //f.format("x: %s\n",z);
+        f.format("h: %h\n",z);
+
     }
 }
