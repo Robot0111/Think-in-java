@@ -2,6 +2,7 @@ package com.think.generic;
 
 import static net.mindview.util.Print.print;
 
+
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;

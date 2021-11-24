@@ -1,6 +1,6 @@
 package com.think.RTTI;
 
-import com.think.容器深入研究.Individual;
+import com.think.collect.Individual;
 
 public class Person extends Individual {
 	public Person(String name) {
