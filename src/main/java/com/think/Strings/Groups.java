@@ -15,7 +15,9 @@ public class Groups {
 				for(int j = 0; j <= m.groupCount(); j++) {
 					System.out.println("[" + m.group(j) +"]");
 				}
+				
 				print();
 			}
+
 	}
 }
