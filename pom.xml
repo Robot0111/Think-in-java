@@ -59,9 +59,9 @@
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>-->
  		 <dependency>
-			<groupId>think</groupId>
-			<artifactId>thinkInJava</artifactId>
-			<version>1.0.0</version>
+			<groupId>net</groupId>
+			<artifactId>mindview</artifactId>
+			<version>1</version>
 		</dependency>
 	<!-- 	<dependency>
 			<groupId>mirror</groupId>

@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile="utils.jar" -DgroupId=net -DartifactId=mindview -Dversion=1 -Dpackaging=jar
