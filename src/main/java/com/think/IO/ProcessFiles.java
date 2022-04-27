@@ -34,7 +34,7 @@ public void start(String[] args){
   }
 }
   public void processDirectoryTree(File root) throws IOException {
-    for (File file : Directory.walk(root.getAbsolutePath(),".*\\"+ext))
+    for (File file : Directory.walk(root.getAbsolutePath(),".*\\."+ext))
       strategy.process(file.getCanonicalFile());
   }
 

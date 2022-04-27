@@ -63,10 +63,16 @@
 			<artifactId>mindview</artifactId>
 			<version>1</version>
 		</dependency>
-	<!-- 	<dependency>
-			<groupId>mirror</groupId>
-			<artifactId>tools</artifactId>
-			<version>1.0.0</version>
-		</dependency> -->
+    <dependency>
+      <groupId>org.jetbrains</groupId>
+      <artifactId>annotations</artifactId>
+      <version>RELEASE</version>
+      <scope>compile</scope>
+    </dependency>
+    <!-- 	<dependency>
+        <groupId>mirror</groupId>
+        <artifactId>tools</artifactId>
+        <version>1.0.0</version>
+      </dependency> -->
 	</dependencies>
 </project>
